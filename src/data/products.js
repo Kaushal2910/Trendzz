@@ -1,20 +1,22 @@
-
 const products = [
   {
     id: 1,
-    name: "Black T-Shirt",
+    name: "Basic T-Shirt",
     price: 499,
-    image: "/images/tshirt.jpg",
-    category: "men",
+    image: "https://via.placeholder.com/150",
   },
   {
     id: 2,
-    name: "Blue Dress",
-    price: 899,
-    image: "/images/dress.jpg",
-    category: "women",
+    name: "Denim Jeans",
+    price: 999,
+    image: "https://via.placeholder.com/150",
   },
-  // add more...
+  {
+    id: 3,
+    name: "Leather Jacket",
+    price: 1499,
+    image: "https://via.placeholder.com/150",
+  },
 ];
 
 export default products;
